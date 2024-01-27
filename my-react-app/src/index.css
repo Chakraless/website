@@ -4,16 +4,15 @@
 
 body {
     margin: 0;
-    background-color: rgb(27, 27, 27);
-    color: rgb(173, 173, 173);
+    background-color: #1B1B1B;
+    color: rgb(150, 150, 150);
 }
-
 .container {
     margin: 1rem;
     text-align: center;
 }
 .nav {
-    background-color: rgb(48, 52, 58);
+    background-color: #48484A;
     color: white;
     display: flex;
     justify-content: space-between;

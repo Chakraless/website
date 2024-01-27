@@ -1,3 +1,33 @@
-card {
-    background-color: red;
+.card {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow:  15px 15px 15px hsla(0, 0%, 0%, 0.562);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
 }
+
+.card .card-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card .social-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .card .social-links a {
+    text-decoration: none;
+  }
+  
+  .card .social-links img {
+    width: 30px; /* Adjust the size of your social icons as needed */
+    height: auto;
+    margin: 0 10px;
+  }
